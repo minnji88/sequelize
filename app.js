@@ -44,7 +44,7 @@ class App {
     }
 
     setViewEngine (){
-
+        process.env.DB_USER
         nunjucks.configure('template', {
             autoescape: true,
             express: this.app
